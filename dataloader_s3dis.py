@@ -13,7 +13,7 @@ from utils.helper_tool import Plot
 class PointCloudsDataset(Dataset):
     def __init__(self, test_area_idx=5, split="training"):
         self.name = 'S3DIS'
-        self.path = './datasets/s3dis'
+        self.path = './data'
         self.label_to_names = {0: 'ceiling',
                                1: 'floor',
                                2: 'wall',
