@@ -1,7 +1,7 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# dataset
-data/
+**/__pycache__
+datasets
+data
+runs
+*.ply
+utils/cpp_wrappers/*/build
+utils/cpp_wrappers/*/*.so
