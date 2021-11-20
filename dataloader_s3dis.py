@@ -46,16 +46,6 @@ class PointCloudsDataset(Dataset):
         self.load_sub_sampled_clouds(0.040)
         self.split = split
 
-    def __getitem__(self, idx):
-        path = self.paths[idx]
-
-        points, labels = self.load_npy(path)
-
-        points_tensor = torch.from_numpy(points).float()
-        labels_tensor = torch.from_numpy(labels).long()
-
-        return points_tensor, labels_tensor
-
     def __len__(self):
         return len(self.paths)
 
