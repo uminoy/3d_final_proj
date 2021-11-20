@@ -7,7 +7,7 @@
 1. training code 만들기.
 2. 3D-unet에 sparse convolution layer 적용시키기 [https://github.com/traveller59/spconv 참조.]
 3. Visualization code 만들기
-4. ...
+4. ....
 
 ## [How to prepare dataset?]
 1. Download S3DIS dataset in [https://docs.google.com/forms/d/e/1FAIpQLScDimvNMCGhy_rmBA2gHfDu3naktRm6A8BPwAWWDv-Uhm6Shw/viewform?c=0&w=1]
@@ -16,3 +16,4 @@
 3. Compile given cpp files for preprocessing by 'sh compile_op.sh'
 3. do [python utils/s3dis_dp.py]
 4. Done.
+
